@@ -1,0 +1,195 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday 🐼✨</title><style>
+
+/* BACKGROUND */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  text-align: center;
+  background: linear-gradient(135deg, #d4fc79, #96e6a1, #fbc2eb, #a6c1ee);
+  background-size: 400% 400%;
+  animation: gradientBG 12s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+/* SPARKLES */
+body::before {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, white 1px, transparent 1px);
+  background-size: 30px 30px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+/* FLOATING EMOJIS */
+.floating {
+  position: fixed;
+  font-size: 28px;
+  animation: float 12s linear infinite;
+  opacity: 0.8;
+}
+
+@keyframes float {
+  0% {transform: translateY(100vh) scale(0.8);}
+  100% {transform: translateY(-10vh) scale(1.2);}
+}
+
+/* CLOUDS */
+.cloud {
+  position: fixed;
+  width: 100px;
+  opacity: 0.6;
+  animation: moveCloud 30s linear infinite;
+}
+
+@keyframes moveCloud {
+  0% {left: -100px;}
+  100% {left: 100%;}
+}
+
+/* SECTIONS */
+.section {
+  display: none;
+  padding: 40px;
+  background: rgba(255,255,255,0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+}
+
+.active {
+  display: block;
+}
+
+/* BUTTON */
+button {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* TEXT */
+h1 {
+  color: #333;
+}
+
+#countdown {
+  font-size: 50px;
+  margin-top: 100px;
+  color: #ff6b81;
+}
+
+/* NOTE */
+.note {
+  max-width: 700px;
+  margin: auto;
+  text-align: left;
+  line-height: 1.7;
+  background: rgba(255,255,255,0.6);
+  padding: 25px;
+  border-radius: 20px;
+}
+
+</style></head><body><!-- CLOUDS --><img src="https://cdn-icons-png.flaticon.com/512/414/414825.png" class="cloud" style="top:10%">
+<img src="https://cdn-icons-png.flaticon.com/512/414/414825.png" class="cloud" style="top:40%">
+<img src="https://cdn-icons-png.flaticon.com/512/414/414825.png" class="cloud" style="top:70%"><!-- FLOATING --><div class="floating" style="left:10%">🐼</div>
+<div class="floating" style="left:25%">🐱</div>
+<div class="floating" style="left:40%">🎋</div>
+<div class="floating" style="left:60%">🐼</div>
+<div class="floating" style="left:80%">🐱</div><!-- SECTION 1 --><div class="section active" id="section1">
+  <div id="countdown">3</div>
+  <h2>Something cute is coming... 🐼✨</h2>
+  <button onclick="nextSection()">Next ➡️</button>
+</div><!-- SECTION 2 --><div class="section" id="section2">
+  <h1>🐼 Hey Birthday Girl! 🐱</h1>
+  <p>Today is not just a normal day...</p>
+  <p>It's YOUR day 🎉</p>
+  <button onclick="nextSection()">Next ➡️</button>
+</div><!-- SECTION 3 --><div class="section" id="section3">
+  <h1>🎋 A little surprise...</h1>
+  <p>Some pandas and kittens came to wish you 🐼🐱</p>
+  <p>And they brought happiness with them 💚</p>
+  <button onclick="nextSection()">Next ➡️</button>
+</div><!-- SECTION 4 VIDEO --><div class="section" id="section4">
+  <h1>🎥 Special Video For You</h1>
+  <video width="90%" controls>
+    <source src="birthday.mp4" type="video/mp4">
+  </video>
+  <br>
+  <button onclick="nextSection()">Next ➡️</button>
+</div><!-- SECTION 5 NOTE --><div class="section" id="section5">
+  <h1>💌 A Small Note For You</h1>
+  <div class="note">
+Hey you… 🐰✨ <br><br>First of all, Happy Birthday 🎉
+Aaj ka din honestly special hai… not just for you, but for me also. Because aaj ke din duniya ko aap mili thi… and somewhere along the way, mujhe tu mili ❤️
+
+I don’t think I say this often, but you are really, really important to me. Like, more than you probably even realize. Life mein bahut log aate hain, jaate hain… but very few people actually stay, understand, and make things better just by being there — and you’re one of those rare people.
+
+You have this amazing way of making everything feel lighter. Chahe mood kitna bhi off ho, baat karke ya bas apke saath time spend karke sab thoda better ho jaata hai.
+
+Aap lovely hai — not just in how you look, but in the way you care and handle things.
+
+Kabhi kabhi sochta hoon, agar aap life mein nahi hoti na… toh kaafi cheezein missing hoti.
+
+You’re not just someone I know… you’re someone I genuinely value.
+
+On your birthday — you deserve all the happiness ❤️
+
+Stay the same amazing and slightly crazy person 😄
+
+And yeah… I’ll always be there annoying you 😂
+
+Happy Birthday 🎂✨
+CuteBunny 🐰💫
+
+  </div>
+</div><script>
+
+let current = 1;
+
+/* COUNTDOWN */
+let count = 3;
+let el = document.getElementById("countdown");
+
+let interval = setInterval(() => {
+  count--;
+  el.innerText = count;
+  if(count === 0){
+    clearInterval(interval);
+    el.innerText = "🎉";
+  }
+},1000);
+
+/* NEXT SECTION */
+function nextSection(){
+  document.getElementById("section"+current).classList.remove("active");
+  current++;
+  document.getElementById("section"+current).classList.add("active");
+}
+
+</script></body>
+</html>
